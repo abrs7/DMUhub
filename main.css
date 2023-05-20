@@ -1,0 +1,155 @@
+
+    /* Style for the main navigation bar */
+
+    /* body{
+		overflow-x: hidden;
+	}
+
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f1f1f1;
+        padding: 10px;
+    }
+
+    /* Style for the logo */
+    /* .logo img {
+        height: 50px;
+    }
+
+    .nav_first{
+
+        display: flex;
+        justify-content: center;
+
+    } */
+
+
+
+
+    /* Style for the main navigation links */
+    /* .main_navbar ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .main_navbar li {
+        margin-right: 10px;
+    } */
+
+    /* Style for the social media links */
+    /* .social_links ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .social_links li {
+        margin-right: 10px;
+    } */ */
+
+
+    /* body{
+
+        overflow-X: hidden;
+
+    }
+
+    #centered1{
+
+     position: absolute;
+     font-size: 10vw;
+     top: 30%;
+     left: 30%;
+     transform: translate(-50%, -50%);     
+
+    }
+
+    #centered2{
+
+        position: absolute;
+        font-size: 10vw;
+        top: 40%;
+        left: 68%;
+        transform: translate(-50%, -50%);     
+   
+       } */
+
+        /* #centered3{
+
+        position: absolute;
+        font-size: 10vw;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);     
+   
+       }
+
+
+       .centered {
+        position: absolute;
+        font-size: 10vw;
+        top: 50%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+      }
+
+       a {
+        text-decoration: none;
+        color: grey;
+    } */
+
+
+    */
+
+
+    body{
+		overflow-x: hidden;
+	}
+	#centered1{
+		position: absolute;
+		font-size: 10vw;
+		top: 30%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+	}
+	#centered2{
+		position: absolute;
+		font-size: 10vw;
+		top: 50%;
+		left: 40%;
+		transform: translate(-50%, -50%);
+	}
+	#centered3{
+		position: absolute;
+		font-size: 10vw;
+		top: 70%;
+		left: 30%;
+		transform: translate(-50%, -50%);
+	}
+	#signup{
+		width: 60%;
+		border-radius: 30px;
+	}
+	#login{
+		width: 60%;
+		background-color: #fff;
+		border: 1px solid #1da1f2;
+		color: #1da1f2;
+		border-radius: 30px;
+	}
+	#login:hover{
+		width: 60%;
+		background-color: #fff;
+		color: #1da1f2;
+		border: 2px solid #1da1f2;
+		border-radius: 30px;
+	}
+	.well{
+		background-color: #187FAB;
+	}
