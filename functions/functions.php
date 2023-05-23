@@ -44,7 +44,7 @@ function insertpost(){
             }
         exit();
         }else{
-            if($upload_image='' && $content == ''){
+            if($upload_image=='' && $content == ''){
             echo "<script>alert('Error occured while uploading it');</script>";
             echo "<script>window.open('home.php', '_self');</script>";
         }else{
