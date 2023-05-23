@@ -1,5 +1,6 @@
 <?php
 
+//Post validation used for Home page post
 
 $con = mysqli_connect('localhost','root','','dmuhub');
 
