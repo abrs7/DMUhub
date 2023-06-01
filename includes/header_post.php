@@ -1,10 +1,7 @@
 <?php  
-
-
 session_start();
-
 include("connection.php");
-include("functions/functions.php");
+include("../functions/functions.php");
 
 ?>
 
@@ -91,7 +88,7 @@ $posts = mysqli_num_rows($run_posts);
 <?php echo "$first_name";  ?> </a>
 </li>
 <li><a href="home.php">Home</a></li>
-<li><a href="members.php">Find People</a></li>
+<li><a href="home.php">Find People</a></li>
 <li><a href="messages.php?u_id=new">Messages</a></li>
 
 

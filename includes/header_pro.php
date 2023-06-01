@@ -1,10 +1,7 @@
 <?php  
-
-
 session_start();
-
 include("connection.php");
-include("functions/functions.php");
+include("../functions/functions.php");
 
 ?>
 
@@ -90,8 +87,8 @@ $posts = mysqli_num_rows($run_posts);
 <li><a href='profile.php?<?php echo "u_id=$user_id" ?>'>
 <?php echo "$first_name";  ?> </a>
 </li>
-<li><a href="home.php">Home</a></li>
-<li><a href="members.php">Find People</a></li>
+<li><a href="../home.php">Home</a></li>
+<li><a href="home.php">Find People</a></li>
 <li><a href="messages.php?u_id=new">Messages</a></li>
 
 
@@ -111,7 +108,7 @@ $posts = mysqli_num_rows($run_posts);
 								</li>
 								<li role='separator' class='divider'></li>
 								<li>
-									<a href='logout.php'>Logout</a>
+									<a href='../logout.php'>Logout</a>
 								</li>
 							</ul>
 						</li>

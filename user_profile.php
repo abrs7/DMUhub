@@ -1,3 +1,5 @@
+
+
 <?php
 
 
@@ -28,7 +30,7 @@ $user_name = $row['username'];
 
 ?>
     
-    <title><?php echo  $row['username']; ?></title>
+    <title>Find People</title>
     <meta charset="utf-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,47 +41,34 @@ $user_name = $row['username'];
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <link rel="stylesheet" href="style/home_style2.css" >
+    <link rel="stylesheet" href="style/home_style3.css" >
 
 </head>
 <body>
   <div class="row">
   
-  <div id="insert_post" class="col-sm-10">
-  <center> 
-  <form action="home.php?id=<?php echo $user_id ?>;" id="f" method="POST" enctype="multipart/form-data">
-  
-  
-  <textarea style="color: #000000;" class="form-control" id="content" rows="4" name="content" value="What do you want to share?" placeholder="What do you want to share?"> </textarea><br>
-  
-  <label class="btn btn-warning" id="upload_image_button" > Select Image
-  
-  <input type="file" name="upload_image" size="30">
-  
-  
-  
-  </label> 
-  <button id="btn-post" class="btn btn-success" name="sub">Post </button>
-  </form> 
-  <?php 
-  insertpost();
-  
-  
-  
-  ?>
-  </center>
-  </div>
+  <?php
 
-  </div>
+if(isset($_GET['u_id'])){
 
-<div class="row">
+   $u_id = $_GET['u_id'];
+}
+if($u_id < 0 || $u_id == "" ){
+    echo "<script>window.open('home.php','_self')</script>";
+}else{
 
-<div class="col-sm-12">
-
-<center><h2><strong>News Feed</strong></h2></center>
-<?php echo get_posts()?>
+}
 
 
+?>
+<div class='col-sm-12'>
+    <?php
+   
+   if()
+
+
+
+?>
 </div>
 
 
